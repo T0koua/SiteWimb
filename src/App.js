@@ -2,6 +2,7 @@ import './App.css';
 import React, {useEffect} from 'react';
 import Navbar from './components/navbar'; 
 import ImageSection from './components/imagesection';
+import Slides from './components/slides';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     
     <div className="App">
       <Navbar />
+      <Slides />
       <ImageSection />
       <header className="App-header">
         <p>

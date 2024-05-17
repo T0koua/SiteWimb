@@ -1,0 +1,31 @@
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  div {
+    display: block;
+}
+
+ body {
+    color: #333;
+    font-family: Sen, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero-section {
+    background-image: linear-gradient(360deg, #222 6%,
+     rgba(34, 34, 34, 0)), url("https://assets-global.website-files.com/662a444b5e5de1b24296cd35/662b17dd97da13889d930fb2_Onibus(2)%20(1).jpg");
+    background-position: 0 0, 50%;
+    background-size: auto, cover;
+    min-height: 550px;
+}
+
