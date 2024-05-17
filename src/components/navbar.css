@@ -1,0 +1,40 @@
+nav {
+  background-color: #ffde59; 
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between; /* Isso alinhará a logo e o nome da empresa à esquerda e os botões à direita */
+  align-items: center;
+}
+
+.wimbnavbar {
+  display: flex;
+  align-items: center;
+}
+
+.logowimb {
+  width: 50px; /* Defina a largura desejada para o logotipo */
+  height: auto; /* Isso mantém a proporção correta */
+  max-width: 100px; /* Defina a largura máxima para o logotipo */
+  margin-right: 10px; /* Ajuste conforme necessário */
+}
+
+.nomewimb {
+  font-weight: bold; /* Pode adicionar outras propriedades de estilo conforme necessário */
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Isso tornará os botões da navbar flexíveis */
+}
+
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
