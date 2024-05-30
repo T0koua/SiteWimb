@@ -4,6 +4,8 @@ import Navbar from './components/navbar';
 import ImageSection from './components/imagesection';
 import Slides from './components/slides';
 import Funcionalidades from './components/funcionalidades';
+import Painel from './components/painel';
+import Rodape from './components/rodape';
 
 
 function App() {
@@ -16,12 +18,8 @@ function App() {
       <Navbar />
       <Slides />
       <Funcionalidades />
-      <ImageSection />
-      <header className="App-header">
-        <p>
-          Só pra nao sumir
-        </p>
-      </header>
+      <Painel />
+      <Rodape />
     </div>
 
   );

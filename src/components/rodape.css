@@ -1,0 +1,112 @@
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    font-family: Sen, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+body {
+    color: #333;
+    background-color: #fff;
+    min-height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+:root {
+    --indian-red: #eb5757;
+    --white-smoke: #f9f9f9;
+    --black: #222;
+    --dim-grey: #525252;
+    --brown: #ab4040;
+    --gold: #ffde03;
+    --red: #e53935;
+    --steel-blue: #1976d2;
+    --medium-sea-green: #20c788;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+
+.footer {
+    background-color: var(--black);
+    padding-top: 65px;
+    padding-bottom: 10px;
+}
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media screen and (max-width: 991px){
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+
+.footer-wrapper {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+@media screen and (max-width: 479px){
+.footer-wrapper {
+    flex-direction: column;
+}
+}
+@media screen and (max-width: 479px){
+.footer-logo-column {
+    margin-bottom: 30px;
+}
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+a {
+    color: var(--indian-red);
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.text-block-2-copy {
+    color: var(--white-smoke);
+    text-align: justify;
+    font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.social-footer-link {
+    margin-left: 20px;
+    transition: all .3s;
+}
+@media screen and (max-width: 479px){
+.social-footer-link {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+}
