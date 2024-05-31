@@ -1,27 +1,24 @@
-import './App.css';
 import React, {useEffect} from 'react';
-import Navbar from './components/navbar'; 
-import ImageSection from './components/imagesection';
-import Slides from './components/slides';
-import Funcionalidades from './components/funcionalidades';
-import Painel from './components/painel';
-import Rodape from './components/rodape';
-
+import HomePage from './pages/HomePage/HomePage.tsx';
+import SobrePage from './pages/SobrePage/Sobre.tsx';
+import TimePage from './pages/TimePage/Time.tsx';
+import Contato from './pages/Contato/Contato.tsx';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   useEffect(() => {
     document.title = "Wimb - Home";
   }, []);
+  
   return (
-    
-    <div className="App">
-      <Navbar />
-      <Slides />
-      <Funcionalidades />
-      <Painel />
-      <Rodape />
-    </div>
-
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/Sobre' element={<SobrePage />} />
+        <Route path='/Equipe' element={<TimePage />} />
+        <Route path='/Contato' element={<Contato />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

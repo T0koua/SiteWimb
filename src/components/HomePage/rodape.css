@@ -79,16 +79,10 @@ html {
     display: inline-block;
 }
 a {
-    color: var(--indian-red);
-    text-decoration: underline;
     background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
 }
 
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
 .text-block-2-copy {
     color: var(--white-smoke);
     text-align: justify;

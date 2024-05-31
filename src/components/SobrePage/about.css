@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+.about-us {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #333, #333);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+.about-us .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-us h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 3em;
+  color: #ffeb3b;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.about-us h2::after {
+  content: '';
+  width: 100px;
+  height: 4px;
+  background-color: #ffeb3b;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-us h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #ffeb3b;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.about-us p {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  text-align: justify;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.about-us ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.about-us ul li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  transition: all 0.3s ease;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.about-us ul li::before {
+  content: "\f058";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  color: #ffeb3b;
+  font-size: 1.2em;
+}
+
+.about-us ul li:hover {
+  color: #ffeb3b;
+  transform: translateX(5px);
+}
+
+.about-us strong {
+  color: #ffeb3b;
+}
+
+.intro, .mission-vision, .values, .activities, .team, .impact, .participate {
+  margin-bottom: 50px;
+  padding: 30px;
+  background: #444;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intro p, .mission-vision p, .values p, .activities p, .team p, .impact p, .participate p {
+  margin: 0;
+}
+
+.values ul, .activities ul, .team ul, .impact ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.values ul li, .activities ul li, .team ul li, .impact ul li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.values ul li::before, .activities ul li::before, .team ul li::before, .impact ul li::before {
+  content: "\f058";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  color: #ffeb3b;
+  font-size: 1.2em;
+}
+
+.values ul li:hover, .activities ul li:hover, .team ul li:hover, .impact ul li:hover {
+  color: #ffeb3b;
+  transform: translateX(5px);
+}
+
+.about-us section:hover {
+  transform: scale(1.02);
+}
+
+.participate a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffeb3b;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.participate a:hover {
+  background-color: #e5c700;
+}
+
+.mission-vision {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding: 30px;
+  background: #444;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-vision .content {
+  width: 50%;
+}
+
+.mission-vision .image {
+  width: 40%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.mission-image {
+  background-image: url('https://prandrelda.wordpress.com/wp-content/uploads/2019/07/missao.png');
+}
+
+.vision-image {
+  background-image: url('https://versiculoscomentados.com.br/estudos-biblicos/wp-content/uploads/2021/10/versiculos-sobre-ter-visoes.jpg');
+}
+
+.mission-vision:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.mission-vision .content {
+  padding-right: 30px;
+}
+
+.mission-vision .content h3 {
+  margin-top: 0;
+}
+
+.mission-vision .image {
+  height: 300px;
+  margin-left: 20px;
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
