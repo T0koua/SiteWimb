@@ -39,7 +39,7 @@ const Time = () => {
           <div className="member-details">
             <h3>Igor de Freitas</h3>
             <p>Banco de Dados e Back-End</p>
-            <p>Igor A. é o integrante responsável por fazer a ligação do banco de dados com os outros componentes do projeto, e auxiliar no Back-End, ao lado de Igor A.</p>
+            <p>Igor F. é o integrante responsável por fazer a ligação do banco de dados com os outros componentes do projeto, e auxiliar no Back-End, ao lado de Igor A.</p>
           </div>
         </div>
 
