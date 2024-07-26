@@ -1,10 +1,10 @@
 import '../../App.css';
 import React, {useEffect} from 'react';
-import Navbar from '../../components/HomePage/navbar'; 
+import Navbar from '../../components/Essentials/navbar'; 
 import Slides from '../../components/HomePage/slides';
 import Funcionalidades from '../../components/HomePage/funcionalidades';
 import Painel from '../../components/HomePage/painel';
-import Rodape from '../../components/HomePage/rodape';
+import Rodape from '../../components/Essentials/rodape';
 
 
 function HomePage() {

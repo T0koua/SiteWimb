@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import './App.css'
 import HomePage from './pages/HomePage/HomePage.tsx';
 import SobrePage from './pages/SobrePage/Sobre.tsx';
 import TimePage from './pages/TimePage/Time.tsx';
