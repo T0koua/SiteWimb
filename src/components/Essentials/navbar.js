@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
       <header>
       <div className="container">
-      <img src={logo} alt="Logo" />;
+      <img src={logo} alt="Logo" />
   
         <div className = { classOn ? 'menu-section on' : 'menu-section'} onClick={() => setClassOn(!classOn)}>
              <div className="menu-toggle">
@@ -21,19 +21,16 @@ const Navbar = () => {
              <nav>
               <ul>
                 <li>
-                  <a href="/">HOME</a>
+                  <a href="/">INÍCIO</a>
                 </li>
                 <li>
-                  <a href="/">MISSÂO</a>
+                  <a href="/Sobre">SOBRE</a>
                 </li>
                 <li>
-                  <a href="/">PRODUTOS</a>
+                  <a href="/Equipe">EQUIPE</a>
                 </li>
                 <li>
-                  <a href="/">SOBRE NÓS</a>
-                </li>
-                <li>
-                  <a href="/">CONTATO</a>  
+                  <a href="/Contato">CONTATO</a>  
                 </li>
                 <li>
                  

@@ -19,18 +19,32 @@
 }
 
 .hero-section {
+  position: relative;
     background-image: linear-gradient(360deg, #222 6%,
      rgba(34, 34, 34, 0)), url("https://assets-global.website-files.com/662a444b5e5de1b24296cd35/662b17dd97da13889d930fb2_Onibus(2)%20(1).jpg");
-    background-position: 0 0, 50%;
-    background-size: auto, cover;
-    min-height: 550px;
+    max-height: 500px;
+    max-width: 2000px;
+    background-size: 1900px 700px;
+    background-position: left;
 }
+
+@media (max-width: 800px){
+  .hero-section{
+    background-repeat: no-repeat;
+       background-position: left;
+       background-size: auto 150%;
+  }
+  }
+
+
+
 .hero-wrapper {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   min-height: 550px;
   display: flex;
+  margin-left:3%;
 }
 
 .hero-heading {
@@ -38,7 +52,8 @@
     width: 35%;
     font-size: 62px;
     line-height: 1.2;
-
+    min-width: 400px;
+    text-align: center;
 }
 
 .hero-paragraph {
@@ -46,6 +61,18 @@
     width: 35%;
     margin-bottom: 25px;
     font-size: 18px;
+    max-width: 370px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+@media(max-width: 1220px){
+  .hero-paragraph {
+    color:aliceblue;
+    margin-bottom: 25px;
+    font-size: 18px;
+    min-width: 370px;
+    
+}
 }
 
 p {
@@ -58,9 +85,13 @@ p {
 
 
 .btn-light-outline-w-button {
+position: relative;
+animation-name: menu;
+animation-duration: 1s;
+transition: 100ms;
 font-family: Sen, sans-serif;
 font-size: 16px;
-margin-left: 11%;
+margin-left: 7%;
 box-sizing: border-box;
 line-height: inherit;
 cursor: pointer;
@@ -75,3 +106,14 @@ border-color: rgb(252, 215, 7);
 background-color: rgba(255, 255, 255, 0);
 color:aliceblue;
 }
+.btn-light-outline-w-button:hover {
+  font-size: 1.4rem;
+  transition: border-color .3s, background-color .3s;
+  color:rgb(252, 0, 0);
+  }
+
+  @media(max-width: 1220px){
+    .btn-light-outline-w-button {
+      margin-left: 81.8906px;
+    }
+  }
