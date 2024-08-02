@@ -29,6 +29,12 @@ body {
     margin-bottom: 40px;
     display: flex;
 }
+@media screen and (max-width: 1000px){
+    .support-top-wrapper {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }}
 .support-top-left {
     flex-direction: column;
     display: flex;
@@ -53,15 +59,24 @@ p {
     justify-content: space-between;
     display: flex;
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1000px){
 .support-wrapper {
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }}
 
 .support-column {
     width: 30%;
     min-height: 200px;
+    position: relative;
 }
+@media screen and (max-width: 1000px){
+    .support-column {
+        
+        width: 30%;
+        min-width: 80%;
+    }}
 
 .support-square {
     background-color: rgb(32, 32, 32);
@@ -74,6 +89,18 @@ p {
     position: relative;
     overflow: hidden;
 }
+.support-square:hover {
+    background-color: rgb(41, 41, 41);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.05);
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 1000px){
+    .support-square {
+       min-width: 100%;
+       left: auto;
+       
+    }}
 
 .support-square-number {
     color: #f9f9f9;
@@ -93,4 +120,5 @@ p {
     font-size: 35px;
     font-weight: 700;
     line-height: 1.2;
+    max-width: 300px;
 }

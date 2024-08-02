@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
       <header>
       <div className="container">
-      <img src={logo} alt="Logo" />
+      <img src={logo} alt="Logo" className='logo'/>
   
         <div className = { classOn ? 'menu-section on' : 'menu-section'} onClick={() => setClassOn(!classOn)}>
              <div className="menu-toggle">
@@ -21,7 +21,7 @@ const Navbar = () => {
              <nav>
               <ul>
                 <li>
-                  <a href="/">INÍCIO</a>
+                  <a href="/" className="growanimation">INÍCIO</a>
                 </li>
                 <li>
                   <a href="/Sobre">SOBRE</a>

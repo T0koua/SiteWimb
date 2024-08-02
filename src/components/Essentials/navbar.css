@@ -100,7 +100,35 @@ header nav ul li a .FiLogOut{
     height: 30px;
     margin-right: 20px;
   }
-
+  .menu-toggle:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.05);
+    
+    }
+    @-webkit-keyframes hvr-pulse-grow {
+      to {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    }
+    @keyframes hvr-pulse-grow {
+      to {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    }
+  .growanimation:hover{
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  }
   /*Fullscreen*/
   .menu-section.on {
     position: absolute;
@@ -153,8 +181,20 @@ header nav ul li a .FiLogOut{
     display: block;
     color: #ffde59;
     padding: 1.8rem;
+    
   }
-
+  .menu-section.on nav ul a:hover{
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  }
 header nav ul li a .FiLogOut{
 width: 40px;
 }
@@ -176,3 +216,7 @@ width: 40px;
 }
 
 
+.logo:hover{
+  -webkit-transform: scale(1.1);
+    transform: scale(1.2);
+}
