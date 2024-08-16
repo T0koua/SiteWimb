@@ -38,11 +38,11 @@ html {
     font-family: sans-serif;
 }
 .safe-section {
-    background-image: linear-gradient(180deg, rgba(34, 34, 34, .17), var(--black)), url("https://assets-global.website-files.com/662a444b5e5de1b24296cd35/662b11a48b82b058dff76598_asda.png");
+    background-image: linear-gradient(to top, rgba(34, 34, 34, 0.1%), var(--black)), linear-gradient(rgba(34, 34, 34, 0.1%), var(--black)), url("https://assets-global.website-files.com/662a444b5e5de1b24296cd35/662b11a48b82b058dff76598_asda.png");
     -webkit-text-fill-color: inherit;
     background-position: 0 0, 50%;
     background-repeat: repeat, repeat;
-    background-size: auto, auto;
+    background-size: cover;
     background-attachment: scroll, scroll;
     background-clip: border-box;
     min-height: 550px;

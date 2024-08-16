@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .support-section {
     padding-top: 65px;
     padding-bottom: 65px;
+    background-color: #222;
+    font-family: "Inter";
+    font-weight: 700;
+    color: #d6d6d6;
 } 
 * {
     box-sizing: border-box;
@@ -10,7 +16,7 @@ div {
 }
 body {
     color: #333;
-    font-family: Sen, sans-serif;
+    
     font-size: 16px;
     line-height: 1.5;
 }

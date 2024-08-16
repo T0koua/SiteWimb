@@ -2,7 +2,7 @@ import '../../App.css';
 import React, {useEffect} from 'react';
 import Navbar from '../../components/Essentials/navbar.js'; 
 import Rodape from '../../components/Essentials/rodape';
-import About from '../../components/SobrePage/about.js';
+
 import Time from '../../components/TimePage/time.js';
 
 

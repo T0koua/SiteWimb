@@ -2,7 +2,7 @@ import React from 'react';
 import './painel.css'
 function Painel() {
   return (
-    <div class="safe-section">
+    <div class="safe-section"> 
         <div class="container">
             <div class="safe-wrapper">
                 <h2 class="safe-heading">Painel Digital</h2>
