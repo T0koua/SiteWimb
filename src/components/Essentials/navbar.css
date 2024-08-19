@@ -11,14 +11,12 @@ header .container {
   display: flex; 
   align-items: center;
   justify-content: space-between;
-  height: 60%;
-  width: 90%; 
-  margin: auto;
+  min-width: 100%; 
 }
 
 header img {
   width: 50px;
-  margin-right: 0;
+  margin-left: 10%;
   padding: 15px 0;
 }
 header nav {
@@ -41,6 +39,7 @@ header nav ul li a {
   font-size: 1.2rem;
   padding: 2.0rem;
   transition: all 250ms linear 0s;
+  margin-left: -50%;
 }
 
 header nav ul li a:hover {

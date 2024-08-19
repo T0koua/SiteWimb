@@ -17,7 +17,7 @@ function Funcionalidades() {
     <div class="support-column">
         <div class="support-square">
             <div class="support-square-number">01</div>
-            <div class="support-square-text">Localização em tempo real do seu ônibus</div>
+            <div class="support-square-text">Localização em tempo real</div>
         </div>
         <p>O App WIMB te proporciona a localização em tempo real da linha de ônibus que você desejar, basta apenas escolher a linha e você vai saber todos os ônibus que estão a caminho.</p>
     </div>
@@ -25,7 +25,7 @@ function Funcionalidades() {
     <div class="support-column">
         <div class="support-square">
             <div class="support-square-number">02</div>
-            <div class="support-square-text">notícias sobre o transito</div>
+            <div class="support-square-text">Trânsito</div>
         </div>
         <p>Você receberá notícias sobre o trânsito, clima e muito mais no app, além de recomendações de caminhos alternativos caso ocorra algum imprevisto no seu trajeto.</p>
     </div>

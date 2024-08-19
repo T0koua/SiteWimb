@@ -21,7 +21,7 @@ const Navbar = () => {
              <nav>
               <ul>
                 <li>
-                  <a href="/" className="growanimation">INÍCIO</a>
+                  <a href="/">INÍCIO</a>
                 </li>
                 <li>
                   <a href="/Sobre">SOBRE</a>
@@ -31,10 +31,6 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a href="/Contato">CONTATO</a>  
-                </li>
-                <li>
-                 
-               
                 </li>
               </ul>
             </nav>

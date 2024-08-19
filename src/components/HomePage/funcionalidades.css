@@ -47,6 +47,7 @@ body {
 }
 .support-top-details-text {
     text-transform: uppercase;
+    color:#ffde59;
 }
 .support-top-heading {
     margin-top: 0;
@@ -79,13 +80,12 @@ p {
 }
 @media screen and (max-width: 1000px){
     .support-column {
-        
         width: 30%;
         min-width: 80%;
     }}
 
 .support-square {
-    background-color: rgb(32, 32, 32);
+    background-color: #ffde59;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
@@ -96,7 +96,7 @@ p {
     overflow: hidden;
 }
 .support-square:hover {
-    background-color: rgb(41, 41, 41);
+    background-color: #ffb730;
     -webkit-transform: scale(1.1);
     transform: scale(1.05);
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
@@ -109,7 +109,7 @@ p {
     }}
 
 .support-square-number {
-    color: #f9f9f9;
+    color: #492c00;
     font-size: 40px;
     font-weight: 700;
     position: absolute;
@@ -120,7 +120,7 @@ p {
 }
 
 .support-square-text {
-    color: #f9f9f9;
+    color: #333;
     text-align: center;
     text-transform: uppercase;
     font-size: 35px;
