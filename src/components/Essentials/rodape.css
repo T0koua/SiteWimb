@@ -92,7 +92,9 @@ a {
     font-weight: 700;
     text-decoration: none;
 }
-
+.footer-small{
+    color: #f9f9f9;
+}
 
 .social-footer-link {
     margin-left: 20px;

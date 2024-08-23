@@ -6,7 +6,8 @@
     background-color: #222;
     font-family: "Inter";
     font-weight: 700;
-    color: #d6d6d6;
+    color: hsl(0, 0%, 84%);
+    min-height: 800px;
 } 
 * {
     box-sizing: border-box;

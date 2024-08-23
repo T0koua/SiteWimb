@@ -162,17 +162,23 @@
 .mission-vision .image {
   width: 40%;
   height: 200px;
-  background-size: cover;
   background-position: center;
   border-radius: 10px;
+  
 }
 
 .mission-image {
-  background-image: url('https://prandrelda.wordpress.com/wp-content/uploads/2019/07/missao.png');
+  background-image: url('./missao.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .vision-image {
-  background-image: url('https://versiculoscomentados.com.br/estudos-biblicos/wp-content/uploads/2021/10/versiculos-sobre-ter-visoes.jpg');
+  background-image: url('./visao.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .mission-vision:nth-child(even) {

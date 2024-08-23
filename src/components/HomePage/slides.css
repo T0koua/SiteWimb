@@ -7,9 +7,6 @@
     box-sizing: border-box;
   }
 
-  div {
-    display: block;
-}
 
  body {
     color: #333;
@@ -23,7 +20,8 @@
     background-image: linear-gradient(360deg, #222 6%,
      rgba(34, 34, 34, 0)), url("https://assets-global.website-files.com/662a444b5e5de1b24296cd35/662b17dd97da13889d930fb2_Onibus(2)%20(1).jpg");
      background-position: center;
-     background-size: cover auto;
+     background-size: cover;
+     min-height: 810px;
 }
 
 @media (max-width: 800px){
@@ -40,9 +38,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  min-height: 550px;
+  min-height: 600px;
   display: flex;
-  margin-left:3%;
+  margin-left:-10%;
 }
 
 .hero-heading {
@@ -51,7 +49,7 @@
     font-size: 62px;
     line-height: 1.2;
     min-width: 400px;
-    text-align: center;
+    text-align: left;
 }
 
 .hero-paragraph {
@@ -59,9 +57,10 @@
     width: 35%;
     margin-bottom: 25px;
     font-size: 18px;
-    max-width: 370px;
+    max-width: 1000px;
     text-align: justify;
     text-justify: inter-word;
+    min-width: 370px;
 }
 @media(max-width: 1220px){
   .hero-paragraph {
@@ -114,3 +113,12 @@ color:aliceblue;
       margin-left: 81.8906px;
     }
   }
+
+  .radial {
+    min-width: 400px;
+    max-width: 400px;
+    max-height: 300px;
+    background-size: cover;
+    background-image: radial-gradient(#222 6%,
+     rgba(34, 34, 34, 0));
+    }

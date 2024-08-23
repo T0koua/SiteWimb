@@ -45,7 +45,7 @@ html {
     background-size: cover;
     background-attachment: scroll, scroll;
     background-clip: border-box;
-    min-height: 550px;
+    min-height: 700px;
 }
 
 .container {

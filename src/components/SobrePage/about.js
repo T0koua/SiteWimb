@@ -67,7 +67,8 @@ const AboutUs = () => {
         <div className="participate">
           <h3>Participe</h3>
           <p>Estamos sempre procurando pessoas interessadas em fazer parte dessa mudança positiva. Entre em contato conosco para saber mais sobre como você pode ajudar a fazer a diferença com o Wimb.</p>
-          <a href="#contact">Entre em Contato</a>
+          <br></br>
+          <a href="./Contato">Entre em Contato</a>
         </div>
       </div>
     </section>
