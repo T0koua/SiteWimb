@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import './App.css'
 import HomePage from './pages/HomePage/HomePage.tsx';
 import SobrePage from './pages/SobrePage/Sobre.tsx';
@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     document.title = "Wimb - Home";
   }, []);
-  
+
   return (
     <BrowserRouter>
       <Routes>
