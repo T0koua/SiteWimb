@@ -1,9 +1,12 @@
+//importando os módulos
 import React, { useState } from 'react';
 import './contato.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import emailjs from 'emailjs-com';
 
+
+//Constante para conectar e enviar o email utilizando emailjs
 const Contato = () => {
   const handleOnSubmit = (e) => {
     e.preventDefault();
@@ -21,6 +24,7 @@ const Contato = () => {
 
 
   return (
+    //layout do formulário
     <section className="contact-page">
       <div className="container">
         <h2>Entre em Contato</h2>
@@ -48,6 +52,6 @@ const Contato = () => {
     </section>
   );
 };
-
+//exporta o componente para que possa ser usado em outros arquivos
 export default Contato;
 

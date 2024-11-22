@@ -3,6 +3,7 @@ import './about.css';
 
 const AboutUs = () => {
   return (
+    //layout da página sobre nós
     <section className="about-us">
       <div className="container">
         <h2>Sobre Nosso Projeto</h2>
@@ -74,5 +75,5 @@ const AboutUs = () => {
     </section>
   );
 };
-
+//exporta o componente para que possa ser usado em outros arquivos
 export default AboutUs;

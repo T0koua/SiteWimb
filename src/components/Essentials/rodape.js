@@ -2,6 +2,7 @@ import React from 'react';
 import './rodape.css'
 function Rodape() {
   return (
+    //layout do rodapé
     <div class="footer">
         <div class="container">
             <div class="footer-wrapper">
@@ -25,4 +26,5 @@ function Rodape() {
   );
 }
 
+//exporta o componente para que possa ser usado em outros arquivos
 export default Rodape;

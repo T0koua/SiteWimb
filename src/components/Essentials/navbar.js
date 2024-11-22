@@ -1,3 +1,4 @@
+//importando os módulos
 import React, { useState } from 'react';
 import logo from './logo.png';
 import './navbar.css';
@@ -7,6 +8,7 @@ const Navbar = () => {
   const [classOn, setClassOn] = useState(false);
 
   return (
+    //layout da navbar (barra de navegação superior)
     <header>
       <div className="container">
         <img src={logo} alt="Logo" className='logo' />
@@ -42,4 +44,5 @@ const Navbar = () => {
 
   )
 }
+//exporta o componente para que possa ser usado em outros arquivos
 export default Navbar;

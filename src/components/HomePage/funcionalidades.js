@@ -2,6 +2,8 @@ import React from 'react';
 import './funcionalidades.css'
 function Funcionalidades() {
   return (
+
+    //layout da seção funcionalidades no site
 <div class="support-section"> 
     <div class="containerF">
         <div class="support-top-wrapper">
@@ -53,5 +55,5 @@ function Funcionalidades() {
 
   );
 }
-
+//exporta o componente para que possa ser usado em outros arquivos
 export default Funcionalidades;

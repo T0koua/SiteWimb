@@ -12,6 +12,7 @@ function App() {
   }, []);
 
   return (
+    // Definindo os caminhos e atribuindo eles com as páginas
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<HomePage />} />

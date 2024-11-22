@@ -3,6 +3,8 @@ import './time.css';
 
 const Time = () => {
   return (
+
+    //layout da tela da equipe
     <section className="team-page">
       <div className="container">
         <h2>Nossa Equipe de Desenvolvimento</h2>
@@ -55,5 +57,5 @@ const Time = () => {
     </section>
   );
 };
-
+//exporta o componente para que possa ser usado em outros arquivos
 export default Time;

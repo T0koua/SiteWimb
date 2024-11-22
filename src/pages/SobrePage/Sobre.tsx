@@ -10,7 +10,7 @@ function SobrePage() {
     document.title = "Wimb - Home";
   }, []);
   return (
-
+    // Chamando os componentes via React <{componente} />
     <div className="App">
       <Navbar />
       <About />
